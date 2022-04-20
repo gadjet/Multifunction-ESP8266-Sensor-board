@@ -3,7 +3,7 @@ AKA Wireless window/door sensor version 4
 
 This is another in the series of wireless Window/Door sensor boards I've been designing, yes I know I've already published version 5 but this is the design before that one, I considered it a bit of a failure really because I was aiming for lower power consumption than version 3 but because I misread the LDO's specification I ended up using more power, around 85uA against the 20uA for version 3.
 
-This board is different to version 3 because it has the ability to add a button to trigger the transmission instead or the reed switch (doorbell?) also there is the mounting position to add an I2C sensor board such as the BME280 or AHT10 or even an OLED display or both.
+This board is different to version 3 because as well as being able to be triggered with a reed switch it also has the ability to have a button added to trigger the transmission instead or as well as the reed switch (doorbell?) also there is the mounting position to add an I2C sensor board such as the BME280 or AHT10 or even an OLED display or both.
 
 The other key difference is the ability to power the ESP8266 from a Li-Ion cell (4.2v) via the LDO or directly from a 3V source such as a couple of AA cells, this bypasses the LDO completely.
 
